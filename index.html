@@ -10,22 +10,28 @@
     <script src="https://kit.fontawesome.com/c5dc02393b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header-container">
-        <div class="float-icon"><h1>LAS</h1></div>
+    <header class="header-container" id="home">
+        <div class="float-icon"><a href="#home"><h1>LAS</h1></a></div>
         <div class="info-las">
             <p class="name">Luis Alberto Spinetta</p>
-            <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus pariatur alias voluptatum ea consectetur laboriosam officia voluptate, corrupti voluptatem odio tempore sunt numquam quos error quas enim molestias reiciendis neque.</p>
+            <p class="info-text">Fue un cantante, guitarrista, poeta, escritor y compositor argentino.</p>
             <ul class="links-container">
-                <li>Biografía</li>
-                <li>Discografía</li>
-                <li>Galeria</li>
+                <a href="#biografia"><li>Biografía</li></a>
+                <a href="#discografia"><li>Discografía</li></a>
+                <a href="#galeria"><li>Galería</li></a>
             </ul>
         </div>
     </header>
-    <section class="biografia">
-        <p class="biografia-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quaerat debitis voluptatibus praesentium delectus corporis incidunt, corrupti quibusdam perspiciatis amet impedit reiciendis neque, ipsa enim ea laborum quidem cumque nam.</p>
+    <section class="biografia" id="biografia">
+        <p class="title">Biografía</p>
+        <div class="biografia-container">
+            <p>Luis Alberto Spinetta nació el 23 de enero de 1950 en Buenos Aires. Su padre era un cantante de tangos aficionado, pasión que Luis Alberto abrazó desde niño. A los 12 años, participó de un concurso nacional de canto y fue seleccionado para una gira, aunque desistió. En esa época, comenzó a tomar sus primeras y únicas lecciones de guitarra, ya que pronto se transformó en músico autodidacta. Comenzó tocando en grupos con compañeros de colegio, como Almendra, formado en 1967, junto a Emilio del Guercio, Edelmiro Molinari y Rodolfo García con quienes grabó dos discos hasta separarse en 1970, sin antes dejar de editar un álbum doble que contiene temas muy conocidos como "Rutas argentinas" y "Los elefantes".</p>
+            <p>El debut solista del Flaco tuvo en 1971, tras la disolución de Almendra, titulado "La búsqueda de la estrella" ya que la empresa RCA no respetó el título original "Spinettalandia y sus amigos".</p>
+            <p>"Muchacha ojos de papel" de Almendra fue un hit los '70s y tras una estadía por Europa, Luis Alberto conforma una trascendental banda de la música popular argentina, Pescado Rabioso, junto a Osvaldo "Bocón" Frascino en bajo (luego reemplazado por David Lebón), Black Amaya en batería y Carlos Cutaia en teclados. Duró solamente dos años y editó dos álbumes considerablemente distintos: "Desatormentándonos" (1972) y "Pescado 2" (1973), un álbum doble, porque "Artaud" (1973) fue acreditado a Pescado pero, en realidad, corresponde a la carrera de Spinetta solista. </p>
+        </div>
+        
     </section>
-    <section class="discografia">
+    <section class="discografia" id="discografia">
         <p class="title">Discografía</p>
         <div class="discos-container">
             <div class="disco">
@@ -50,17 +56,25 @@
             </div>
         </div>
     </section>
-    <section class="gallery">
+    <section class="gallery" id="galeria">
         <p class="title">Galeria</p>
-        <div class="pic-co"></div>
-        <div class="pic-co"></div>
-        <div class="pic-co"></div>
-        <div class="pic-co"></div>
-        <div class="pic-co"></div>
-        <div class="pic-co"></div>
-        <div class="pic-co"></div>
-        <div class="pic-co"></div>
-        <div class="pic-co"></div>
+        <div class="galeria-container">
+            <div class="fotos-r1">
+                <div class="pic-co g1"></div>
+                <div class="pic-co g2"></div>
+                <div class="pic-co g3"></div>
+            </div>
+            <div class="fotos-r2">
+                <div class="pic-co g4"></div>
+                <div class="pic-co g5"></div>
+                <div class="pic-co g6"></div>
+            </div>
+            <div class="fotos-r3">
+                <div class="pic-co g7"></div>
+                <div class="pic-co g8"></div>
+                <div class="pic-co g9"></div>
+            </div>
+        </div>
     </section>
     <footer>
         <p>&copy; 2022 Matías Lucero. Todos los derechos reservados</p>

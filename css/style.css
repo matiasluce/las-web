@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --header-bg-color:#309d26;
+    --text-color-yw:#FDFAAE;
+    scroll-behavior: smooth;
+}
+
+.header-container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--header-bg-color);
+    color: var(--text-color-yw);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 0 50px;
+}
+
+.float-icon{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    transition: transform .5s;
+}
+
+.float-icon:hover{
+    transform: scale(1.2) rotate(15deg);
+}
+
+.float-icon a{
+    text-decoration: none;
+    color: var(--text-color-yw);
+}
+
+.float-icon h1{
+    font-family:'Lato', cursive;
+    border: 1.5px solid var(--text-color-yw);
+    padding: 15px 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.info-las{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-las .name{
+    margin-bottom: 30px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.info-las .info-text{
+    font-size: 20px;
+}
+
+.links-container{
+    list-style: none;
+    display: flex;
+
+    padding: 15px 0;
+}
+
+.links-container a{
+    text-decoration: none;
+    color: var(--text-color-yw);
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid var(--text-color-yw);
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*biografia*/
+
+.biografia{
+    width: 100%;
+    height: 70vh;
+    padding: 20px 175px;
+}
+
+.biografia-container{
+    margin-top: 25px;
+    font-size: 20px;
+    letter-spacing: .8px;
+}
+
+/*discografia*/
+
+.discografia{
+    width: 100%;
+    height: auto;
+    background-color: #403197;
+}
+
+.discos-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+}
+
+.disco{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.disco .disco-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.disco .disco-year{
+    color: rgb(197, 197, 197);
+}
+
+
+
+.disco img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*galeria*/
+
+.gallery .title{
+    color: var(--text-color-yw);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.gallery{
+    width: 100%;
+    height: auto;
+    background: #000;
+    padding-bottom: 50px;
+}
+
+.galeria-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos-r1,.fotos-r2,.fotos-r3{
+    display: flex;
+    flex-direction: row;
+}
+
+.g1{
+    background: url('../img/g1.jpg');
+}
+.g2{
+    background: url('../img/g2.jpg');
+}
+.g3{
+    background: url('../img/g3.jpg');
+}
+.g4{
+    background: url('../img/g4.webp');
+}
+.g5{
+    background: url('../img/g5.webp');
+}
+.g6{
+    background: url('../img/g6.jpg');
+}
+.g7{
+    background: url('../img/g7.webp');
+}
+.g8{
+    background: url('../img/g8.jpg');
+    
+}
+.g9{
+    background: url('../img/g9.webp');
+   
+}
+
+.pic-co{
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(1);
+}
+
+
