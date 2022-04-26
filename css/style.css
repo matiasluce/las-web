@@ -18,7 +18,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    padding: 0 50px;
+    padding: 0 120px;
 }
 
 .float-icon{
@@ -56,7 +56,7 @@
     margin-bottom: 30px;
     font-family: 'Liu Jian Mao Cao', cursive;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .info-las .info-text{
@@ -118,8 +118,8 @@
 }
 
 .disco{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     text-align: center;
     margin-bottom: 50px;
 }
